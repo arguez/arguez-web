@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+	color:#fff;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-family: 'Exo', sans-serif;
+	background: url('../images/mintbgd.jpg') no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+
+h1, h2 ,h3 ,h4, h5, h6 {
+	font-family:'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight:100;
+	margin: 1em 0 1em 0;
+}
+
+.stress {
+	font-weight:600;
+	margin: 10px 0px 10px 0px;
+}
+.teaser {
+	background: rgba(0, 0, 0, 0.33);
+	width: 70%;
+	border-radius: 0px;
+	font-size: 18px;
+	text-align: justify;
+	text-align-last: center;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	padding-right: 70px;
+	padding-left: 70px;
+}
+
+.social a {
+	margin:0px 10px 0px 10px;
+	text-decoration: none;
+	text-shadow: white 0 0 0.5em;
+	color:#fff;
+}
+
+.shadow {
+	text-shadow: white 0 0 0.2em;
+}
+
+.text {
+	padding-right: 10%;
+	padding-left: 10%;
+}
