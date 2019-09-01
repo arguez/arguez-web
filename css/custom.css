@@ -19,6 +19,7 @@ h1, h2 ,h3 ,h4, h5, h6 {
 }
 .teaser {
 	background: rgba(0, 0, 0, 0.33);
+	height: 80%;
 	width: 70%;
 	border-radius: 0px;
 	font-size: 18px;
@@ -30,9 +31,17 @@ h1, h2 ,h3 ,h4, h5, h6 {
 	transform: translate(-50%,-50%);
 	padding-right: 70px;
 	padding-left: 70px;
+	padding-top: 5%;
 }
 
-.social a {
+.social {
+	display: grid;
+	grid-auto-flow: row;
+	grid-template-columns: 1fr;  
+    grid-template-rows: 1fr;
+}
+
+.icons a {
 	margin:0px 10px 0px 10px;
 	text-decoration: none;
 	text-shadow: white 0 0 0.5em;
